@@ -63,7 +63,6 @@ img {
 .navbar a {
     color: #fff;
     padding: 1rem 2rem;
-    margin: 0 .5px;
 }
 
 .navbar a:hover {
@@ -74,12 +73,9 @@ img {
     display: flex;
 }
 
-.navbar .brand {
-    font-weight: 400;
-}
-
 .navbar h1 {
     font-size: 3rem;
+    font-weight: 400;
 }
 
 .navbar span {
@@ -87,7 +83,6 @@ img {
 }
 
 /* header */
-
 .main-header {
     background-image: url('../img/bg-1.jpeg');
     background-repeat: no-repeat;
@@ -151,7 +146,7 @@ img {
     color: #fff;
     padding: 1rem;
     border-radius: 50%;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.6rem;
 }
 
 
@@ -195,6 +190,10 @@ img {
 }
 
 /* contact */
+.contact h2 {
+    font-size: 4rem;
+}
+
 .contact-form {
     width: 100%;
     padding: 2rem 0;
@@ -218,10 +217,6 @@ img {
 
 .contact-form .btn {
     margin-top: 20px;
-}
-
-.contact h2 {
-    font-size: 4rem;
 }
 
 /* article */
